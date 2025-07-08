@@ -1,0 +1,108 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    color: #262626;
+    background-color: white;
+    /*line-height: 1.2;*/
+    font-weight: 450;
+    margin: 0;
+}
+
+article {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#author {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#author:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    color: #262626
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: auto;
+}
+
+h2 {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin: 30px 0
+}
+
+.swiper-slide {
+    font-size: 0.75rem;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: fit-content;
+    display: block;
+}
+
+figcaption {
+    margin: 0.7rem 0;
+}
+
+/*.promotion {
+    background-color: #f5f5f5;
+    padding: 3px 5px;
+    margin: 20px 0;
+    
+    /* Flexbox, modern solution sth sth */
+    /* use display: flex to activate    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+/* So somehow the above doesn't work */
+
+.promotion {
+    margin: 30px 0;
+}
+
+.promotion p {
+    background-color: #f5f5f5;
+    border-left: 4px solid #de4c0d;
+    font-size: 0.88rem;
+    padding: 17px 10px;
+    text-align: left;
+    margin: 0;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 0.8rem;
+}
